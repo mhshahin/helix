@@ -42,16 +42,3 @@ func inRules(ev *corev1.Event) bool {
 
 	return false
 }
-
-// func (h *Handler) eventMatcher(event *corev1.Event) bool {
-// 	for _, rule := range h.rules {
-// 		if matchString()
-// 	}
-// 	return true
-// }
-
-// func matchString(pattern, s string) bool {
-// 	matched, _ := regexp.MatchString(pattern, s)
-
-// 	return matched
-// }
